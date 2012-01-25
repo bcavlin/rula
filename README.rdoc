@@ -2,6 +2,12 @@
 
 RULA is RUby Log Analyzer. It is intended to work in console and curses mode. Some code is implemented based on the ruby debugger.
 
+You will need these gems: win32console, columnize
+
+Usage: ruby rula.rb file1.log file2.log
+
+When in application type help to see the list of commands
+
 == TODO
 * Create control over what gets scrolled and implement 'more' to read entire file
 * PGUP and PGDN scrolling of the file
