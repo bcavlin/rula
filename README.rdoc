@@ -1,0 +1,25 @@
+= rula
+
+RULA is RUby Log Analyzer. It is intended to work in console and curses mode. Some code is implemented based on the ruby debugger.
+
+== TODO
+* Create control over what gets scrolled and implement 'more' to read entire file
+* PGUP and PGDN scrolling of the file
+* Searching for the already searched buffers
+* Templates/plugins for seraching (colors coding and for example apache log vs. log4j log)
+* Implement configuration for Rula
+
+== Contributing to rula
+ 
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+== Copyright
+
+Copyright (c) 2011 bcavlin. See LICENSE.txt for further details.
+
